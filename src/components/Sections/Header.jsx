@@ -1,9 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 // Components
-import FullButton from "../Buttons/FullButton";
+import FullButtonCustom from "../Buttons/FullButtonCustom";
 // Assets
-import HeaderImage from "../../assets/img/header-img.png";
+import HeaderImage from "../../assets/img/car/Img10.jpg";
 import QuotesIcon from "../../assets/svg/Quotes";
 import Dots from "../../assets/svg/Dots";
 
@@ -12,13 +12,12 @@ export default function Header() {
     <Wrapper id="home" className="container flexSpaceCenter">
       <LeftSide className="flexCenter">
         <div>
-          <h1 className="extraBold font60">We are Digital Agency.</h1>
+          <h1 className="extraBold font60">TAXI HÀ LAM - PHỤC VỤ 24/24</h1>
           <HeaderP className="font13 semiBold">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-            voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+          Chúng tôi cảm ơn quý khách đã tin tưởng sử dụng dịch vụ di chuyển của Taxi Hà Lam. Taxi Hà Lam là 1 trong những đơn vị taxi tại khu vực Thăng Bình với phương châm an toàn, tiết kiệm, nhanh chóng…
           </HeaderP>
           <BtnWrapper>
-            <FullButton title="Get Started" />
+            <FullButtonCustom title="0935767151" />
           </BtnWrapper>
         </div>
       </LeftSide>
@@ -31,9 +30,10 @@ export default function Header() {
             </QuotesWrapper>
             <div>
               <p className="font15 whiteColor">
-                <em>Friends, such as we desire, are dreams and fables. Friendship demands the ability to do without it.</em>
+                <em> <p className="textCenter" >DỊCH VỤ CỦA CHÚNG TÔI </p><br/>
+                <p className="textCenter">AN TOÀN - CHẤT LƯỢNG - MỌI LÚC - MỌI NƠI</p></em>
               </p>
-              <p className="font13 orangeColor textRight" style={{marginTop: '10px'}}>Ralph Waldo Emerson</p>
+              <p className="font13 orangeColor textRight" style={{marginTop: '10px'}}>Taxi Hà Lam</p>
             </div>
           </QuoteWrapper>
           <DotsWrapper>
@@ -127,6 +127,7 @@ const QuoteWrapper = styled.div`
   max-width: 330px;
   padding: 30px;
   z-index: 99;
+  opacity: .85;
   @media (max-width: 960px) {
     left: 20px;
   }
