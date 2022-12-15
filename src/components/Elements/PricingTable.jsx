@@ -7,6 +7,8 @@ import RollerIcon from "../../assets/svg/Services/RollerIcon";
 import MonitorIcon from "../../assets/svg/Services/MonitorIcon";
 import BrowserIcon from "../../assets/svg/Services/BrowserIcon";
 import PrinterIcon from "../../assets/svg/Services/PrinterIcon";
+import Car4 from "../../assets/svg/Services/Car4";
+import Car7 from "../../assets/svg/Services/Car7";
 import CheckMark from "../../assets/svg/Checkmark";
 
 export default function PricingTable({ icon, price, title, text,  offers, action }) {
@@ -25,6 +27,12 @@ export default function PricingTable({ icon, price, title, text,  offers, action
     case "printer":
       getIcon = <PrinterIcon />;
       break;
+    case "car4":
+      getIcon = <Car4 />;
+      break;
+    case "car7":
+      getIcon = <Car7 />;
+      break;
     default:
       getIcon = <RollerIcon />;
       break;
@@ -34,9 +42,9 @@ export default function PricingTable({ icon, price, title, text,  offers, action
     <Wrapper className="whiteBg radius8 shadow">
       <div className="flexSpaceCenter">
         {getIcon}
-        <p className="font30 extraBold">{price}</p>
+        {/* <p className="font30 extraBold">{price}</p> */}
       </div>
-      <div style={{ margin: "30px 0" }}>
+      <div style={{ marginBottom: "30px" }}>
         <h4 className="font30 extraBold">{title}</h4>
         <p className="font13">{text}</p>
       </div>
@@ -58,9 +66,9 @@ export default function PricingTable({ icon, price, title, text,  offers, action
             ))
           : null}
       </div>
-      <div style={{ maxWidth: "120px", margin: "30px auto 0 auto" }}>
+      {/* <div style={{ maxWidth: "120px", margin: "30px auto 0 auto" }}>
         <FullButton title="Buy" action={action} />
-      </div>
+      </div> */}
     </Wrapper>
   );
 }

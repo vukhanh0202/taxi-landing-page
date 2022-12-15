@@ -63,7 +63,7 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
             Dịch Vụ
           </Link>
         </li>
-        <li className="semiBold font15 pointer">
+        {/* <li className="semiBold font15 pointer">
           <Link
             onClick={() => toggleSidebar(!sidebarOpen)}
             activeClass="active"
@@ -76,7 +76,7 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
           >
             Giá Cả
           </Link>
-        </li>
+        </li> */}
         <li className="semiBold font15 pointer">
           <Link
             onClick={() => toggleSidebar(!sidebarOpen)}
@@ -88,10 +88,10 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
             smooth={true}
             offset={-60}
           >
-            Liên Hệ
+            Giá Cả
           </Link>
         </li>
-        <li className="semiBold font15 pointer">
+        {/* <li className="semiBold font15 pointer">
           <Link
             onClick={() => toggleSidebar(!sidebarOpen)}
             activeClass="active"
@@ -104,7 +104,7 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
           >
             Hỗ Trợ
           </Link>
-        </li>
+        </li> */}
       </UlStyle>
       {/* <UlStyle className="flexSpaceCenter">
         <li className="semiBold font15 pointer">
