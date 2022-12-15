@@ -1,6 +1,7 @@
 import React from "react";
 import Slider from "react-slick";
 import styled from "styled-components";
+import FullButtonCustom from "../Buttons/FullButtonCustom";
 // Assets
 import ClientLogo01 from "../../assets/img/clients/logo01.svg"
 import ClientLogo02 from "../../assets/img/clients/logo02.svg";
@@ -41,8 +42,8 @@ export default function ClientSlider() {
     ],
   };
   return (
-    <div>
-      <Slider {...settings}>
+    <div className="textCenter">
+      {/* <Slider {...settings}>
         <LogoWrapper className="flexCenter">
           <ImgStyle src={ClientLogo01} alt="client logo" />
         </LogoWrapper>
@@ -73,7 +74,12 @@ export default function ClientSlider() {
         <LogoWrapper className="flexCenter">
           <ImgStyle src={ClientLogo02} alt="client logo" />
         </LogoWrapper>
-      </Slider>
+      </Slider> */}
+        <h1 className="font40 extraBold textCenter">TỔNG ĐÀI GỌI XE - UY TÍN HÀNG ĐẦU</h1>
+        <p className="font15" style={{marginTop: '20px', marginBottom: '35px'}}>
+          Dù bạn ở đâu chỉ cần gọi 0935767151 - Tổng đài gọi xe - dịch vụ nhanh chóng, phục vụ Quý khách 24/7.
+        </p>
+        <FullButtonCustom styled title="0935767151" />
     </div>
   );
 }

@@ -32,7 +32,7 @@ export default function ServiceBox({icon, title, subtitle}) {
     <Wrapper className="flex flexColumn">
       <IconStyle>{getIcon}</IconStyle>
       <TitleStyle className="font20 extraBold">{title}</TitleStyle>
-      <SubtitleStyle className="font13">{subtitle}</SubtitleStyle>
+      <SubtitleStyle className="font15">{subtitle}</SubtitleStyle>
     </Wrapper>
   );
 }
@@ -49,7 +49,7 @@ const TitleStyle = styled.h2`
   width: 100%;
   max-width: 300px;
   margin: 0 auto;
-  padding: 40px 0;
+  padding: 0px 0 20px 0;
   @media (max-width: 860px) {
     padding: 20px 0;
   }
