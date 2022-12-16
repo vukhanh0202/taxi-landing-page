@@ -24,9 +24,9 @@ export default function Pricing() {
                 title="Bảng giá xe 4 chỗ"
                 // text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
                 offers={[
-                  { name: "Dưới 15km - Giá 17.900đ/1km", cheked: true },
-                  { name: "Dưới 100km - Giá 14.000đ/1km", cheked: true },
-                  { name: "Dưới 13km trở lên- Giá 13.000đ/1km", cheked: true },
+                  { name: "Dưới 15km - Giá 14.600đ/1km", cheked: true },
+                  { name: "Dưới 100km - Giá 10.000đ/1km", cheked: true },
+                  { name: "Dưới 13km trở lên- Giá 9.000đ/1km", cheked: true },
                   { name: "Đi khứ hồi lượt về giảm 70% ( tùy quãng đường và thời gian chờ)", cheked: true },
                   { name: "Phí đường bộ khách thanh toán ( nếu có)", cheked: true },
                 ]}
@@ -40,9 +40,9 @@ export default function Pricing() {
                 title="Bảng giá xe 7 chỗ"
                 // text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
                 offers={[
-                  { name: "Dưới 15km - Giá 14.600đ/1km", cheked: true },
-                  { name: "Dưới 100km - Giá 10.000đ/1km", cheked: true },
-                  { name: "Dưới 13km trở lên- Giá 9.000đ/1km", cheked: true },
+                  { name: "Dưới 15km - Giá 17.900đ/1km", cheked: true },
+                  { name: "Dưới 100km - Giá 14.000đ/1km", cheked: true },
+                  { name: "Dưới 13km trở lên- Giá 13.000đ/1km", cheked: true },
                   { name: "Đi khứ hồi lượt về giảm 70% ( tùy quãng đường và thời gian chờ)", cheked: true },
                   { name: "Phí đường bộ khách thanh toán ( nếu có)", cheked: true },
                 ]}
