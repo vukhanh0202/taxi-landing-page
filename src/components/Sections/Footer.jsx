@@ -12,12 +12,12 @@ export default function Contact() {
 
   return (
     <Wrapper>
-      <div className="darkBg">
+      <div className="darkBg" style={{ backgroundColor: "#41cac0" }}>
         <div className="container">
           <InnerWrapper className="flexSpaceCenter" style={{ padding: "30px 0" }}>
-            <Link className="flexCenter animate pointer" to="home" smooth={true} offset={-80}>
+            {/* <Link className="flexCenter animate pointer" to="home" smooth={true} offset={-80}>
               <LogoImg />
-            </Link>
+            </Link> */}
             <StyleP className="whiteColor font13">
               © {getCurrentYear()} - All Right Reserved
             </StyleP>
@@ -26,6 +26,22 @@ export default function Contact() {
               Lên Đầu Trang
             </Link>
           </InnerWrapper>
+        </div>
+      </div>
+      <div class="hotline-phone-ring-wrap">
+        <div class="hotline-phone-ring">
+          <div class="hotline-phone-ring-circle"></div>
+          <div class="hotline-phone-ring-circle-fill"></div>
+          <div class="hotline-phone-ring-img-circle">
+          <a href="tel:0987654321" class="pps-btn-img">
+            <img src="https://nguyenhung.net/wp-content/uploads/2019/05/icon-call-nh.png" alt="Gọi điện thoại" width="50"/>
+          </a>
+          </div>
+        </div>
+        <div class="hotline-bar">
+          <a href="tel:0987654321">
+            <span class="text-hotline">0987.654.321</span>
+          </a>
         </div>
       </div>
     </Wrapper>

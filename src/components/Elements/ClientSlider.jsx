@@ -79,7 +79,7 @@ export default function ClientSlider() {
         <p className="font15" style={{marginTop: '20px', marginBottom: '35px'}}>
           Dù bạn ở đâu chỉ cần gọi 0935767151 - Tổng đài gọi xe - dịch vụ nhanh chóng, phục vụ Quý khách 24/7.
         </p>
-        <FullButtonCustom styled title="0935767151" />
+        <FullButtonCustom styled title="0935.767.151" />
     </div>
   );
 }

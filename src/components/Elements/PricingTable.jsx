@@ -61,7 +61,7 @@ export default function PricingTable({ icon, price, title, text,  offers, action
                     <div style={{ minWidth: "20px" }}></div>
                   )}
                 </div>
-                <p className="font20 extraBold">{item.name}</p>
+                <p className="font17 bold">{item.name}</p>
               </div>
             ))
           : null}

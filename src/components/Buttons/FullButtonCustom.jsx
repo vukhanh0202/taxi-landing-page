@@ -20,19 +20,19 @@ export default function FullButtonCustom({ title, action, border }) {
 }
 
 const Wrapper = styled.button`
-  border: 1px solid ${(props) => (props.border ? "#707070" : "#7620ff")};
-  background-color: ${(props) => (props.border ? "transparent" : "#7620ff")};
+  border: 1px solid ${(props) => (props.border ? "#707070" : "#41cac0")};
+  background-color: ${(props) => (props.border ? "transparent" : "#41cac0")};
   width: 100%;
-  max-width: 190px;
+  max-width: 200px;
   padding: 15px;
   outline: none;
   letter-spacing: 3px;
   font-size: 1.1rem;
   color: ${(props) => (props.border ? "#707070" : "#fff")};
   :hover {
-    background-color: ${(props) => (props.border ? "transparent" : "#580cd2")};
-    border: 1px solid #7620ff;
-    color: ${(props) => (props.border ? "#7620ff" : "#fff")};
+    background-color: ${(props) => (props.border ? "transparent" : "#39b2a9")};
+    border: 1px solid #41cac0;
+    color: ${(props) => (props.border ? "#41cac0" : "#fff")};
   }
 `;
 

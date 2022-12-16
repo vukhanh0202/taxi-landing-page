@@ -17,7 +17,7 @@ export default function Header() {
           Chúng tôi cảm ơn quý khách đã tin tưởng sử dụng dịch vụ di chuyển của Taxi Hà Lam. Taxi Hà Lam là 1 trong những đơn vị taxi tại khu vực Thăng Bình với phương châm an toàn, tiết kiệm, nhanh chóng…
           </HeaderP>
           <BtnWrapper>
-            <FullButtonCustom title="0935767151" />
+            <FullButtonCustom title="0935.767.151" />
           </BtnWrapper>
         </div>
       </LeftSide>
@@ -88,7 +88,7 @@ const HeaderP = styled.div`
   }
 `;
 const BtnWrapper = styled.div`
-  max-width: 190px;
+  max-width: 200px;
   @media (max-width: 960px) {
     margin: 0 auto;
   }
