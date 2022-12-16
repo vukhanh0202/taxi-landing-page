@@ -13,7 +13,7 @@ export default function FullButtonCustom({ title, action, border }) {
         <FaPhoneAlt/> 
       </div>
       <div style={{float:'right'}}> 
-        {title}
+         <a style={{color:'inherit'}} href="tel:0935767151">{title}</a>
       </div>
     </Wrapper>
   );

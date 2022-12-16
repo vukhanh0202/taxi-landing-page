@@ -39,8 +39,8 @@ export default function Contact() {
           </div>
         </div>
         <div class="hotline-bar">
-          <a href="tel:0987654321">
-            <span class="text-hotline">0987.654.321</span>
+          <a href="tel:0935767151">
+            <span class="text-hotline">0935.767.151</span>
           </a>
         </div>
       </div>
