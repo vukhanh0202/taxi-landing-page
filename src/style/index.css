@@ -52,7 +52,7 @@
   body {
     background: #fff;
     color: #0B093B;
-    font-family: 'Khula', sans-serif;
+    font-family: system-ui;
     overflow-x: hidden;
     font-size: 16px;
     font-weight: 400;
@@ -384,7 +384,7 @@
     display: block;
     letter-spacing: 1px;
     line-height: 40px;
-    font-family: Arial;
+    font-family: system-ui;
   }
   .hotline-bar > a:hover,
   .hotline-bar > a:active {
